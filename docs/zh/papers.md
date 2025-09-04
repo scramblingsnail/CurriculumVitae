@@ -89,7 +89,7 @@
   <p><strong>作者：</strong> <strong>Z-Z Yang†</strong>, H Zhao†, Y-C Zhao, et al.</p>
   <p><strong>期刊：</strong> <strong>Science Robotics</strong> (Under Review)</p>
   <div class="icon-container">
-    <a href="https://github.com/zhangsan/paper1" class="icon-link" target="_blank">
+    <a href="https://github.com/scramblingsnail/AnalogFNNForRobot" class="icon-link" target="_blank">
       <img src="../assets/code_icon.png" alt="代码仓库" width=30px height=5px>
       <span class="tooltip">代码仓库</span>
     </a>
@@ -121,7 +121,7 @@
   <p><strong>作者：</strong> <strong>Z-Z Yang</strong>, et al.</p>
   <p><strong>期刊：</strong>In preparation</p>
   <div class="icon-container">
-    <a href="https://github.com/zhangsan/paper1" class="icon-link" target="_blank">
+    <a href="https://github.com/scramblingsnail/RLReRAMPolicy" class="icon-link" target="_blank">
       <img src="../assets/code_icon.png" alt="代码仓库" width=30px height=5px>
       <span class="tooltip">代码仓库</span>
     </a>
@@ -137,7 +137,7 @@
   <p><strong>作者：</strong> C Wang†, <strong>Z-Z Yang†</strong>, Y-M Zhu, et al.</p>
   <p><strong>期刊：</strong> To be submitted</p>
   <div class="icon-container">
-    <a href="https://github.com/zhangsan/paper1" class="icon-link" target="_blank">
+    <a href="" class="icon-link" target="_blank">
       <img src="../assets/code_icon.png" alt="代码仓库" width=30px height=5px>
       <span class="tooltip">代码仓库</span>
     </a>
