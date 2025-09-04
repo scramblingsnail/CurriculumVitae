@@ -1,0 +1,147 @@
+site_name: CV-Zaizheng-Yang
+repo_url: https://github.com/scramblingsnail/CurriculumVitae
+repo_name: CV
+copyright: Copyright &copy; Zaizheng Yang.
+
+nav:
+  - Home: index.md
+  - Papers: papers.md
+  - Awards:
+      - awards/index.md
+      - awards/ascend2023.md
+      - awards/ascend2024.md
+      - awards/best_poster_award.md
+  - Patents:
+      - patents/index.md
+  - Programs:
+      - programs/index.md
+      - RL_for_ReRAM:
+          - programs/rl_reram/index.md
+      - Communication-aware_nn:
+          - programs/communication_aware_nn/index.md
+      - Fully-analog_nn:
+          - programs/fully_analog_nn/index.md
+      - Labridge:
+          - programs/labridge/index.md
+
+  - Intern:
+      - intern/index.md
+
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep-purple
+      accent: cyan
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+  features:
+    # - navigation.instant  # see https://github.com/ultrabug/mkdocs-static-i18n/issues/62
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - navigation.path
+    - toc.follow
+    - search.highlight
+    - search.share
+    - search.suggest
+    - content.action.view
+    - content.action.edit
+    - content.tabs.link
+    - content.code.copy
+    - content.code.select
+    - content.code.annotations
+  favicon: assets/icon.ico
+  icon:
+    logo: logo
+
+markdown_extensions:
+  # Officially Supported Extensions
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - meta
+  - sane_lists
+  - tables
+  - toc:
+      permalink: true
+  - wikilinks
+  # Third Party Extensions(Bundles, PyMdown Extensions)
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+plugins:
+  - search
+  - include-markdown
+  - mkdocstrings:
+      default_handler: python
+      handlers:
+        python:
+          options:
+            # Headings
+            show_root_heading: true
+            show_root_toc_entry: true
+            show_object_full_path: true
+            # Members
+            show_submodules: false
+            # Docstrings
+            docstring_section_style: spacy
+#  - with-pdf:
+#      verbose: True
+#      author: zhisan
+#      copyright: A-Duiduiduidui Team
+
+  - i18n:
+      docs_structure: folder
+      fallback_to_default: true
+      languages:
+        - locale: en
+          default: false
+          name: English
+        - locale: zh
+          default: true
+          name: 中文
+          nav_translations:
+            Home: 主页
+            Papers: 已发表与待发表论文
+            Programs: 项目经历
+            Awards: 获奖经历
+            Patents: 专利
+            Intern: 实习经历
+            RL_for_ReRAM: ReRAM阵列测试系统 & 基于强化学习的ReRAM阻态编程方案
+            Communication-aware_nn: 基于模拟存内计算硬件的边云无线协同推理系统
+            Fully-analog_nn: 全模拟域人工神经网络
+            Analog_FNN: 全模拟域全连接神经网络及应用
+            Analog_RNN: 全模拟域循环神经网络及应用
+            Analog_CNN: 全模拟域卷积神经网络
