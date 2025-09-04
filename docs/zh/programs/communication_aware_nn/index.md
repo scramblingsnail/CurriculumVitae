@@ -45,6 +45,8 @@
 
 ![Collaborative_inference](./images/collaborative_inference.jpg)
 
+---
+
 ## **通信感知训练方法**
 
 ![Communication-aware](./images/communication-aware_training.jpg)
@@ -55,11 +57,13 @@
 
 (1) 适用于多种无线环境：使用各种调制方案（4-QAM, 16-QAM, 64-QAM），经历各种时变衰落特性的无线信道（时变平坦衰落，时变频率选择性衰落）。
 
-(2) 通信成本大幅度降低：达到合格推理准确率所需的接受信号平均信噪比 降低16dB，等价于 发射功率降低95%。
+(2) 通信成本大幅度降低：达到合格推理准确率所需的接受信号平均信噪比 降低16dB，等价于 发射功率降低97.5%。
 
 ![Communication-aware_result](./images/communication-aware_result.jpg)
 
 ![Communication-aware_result](./images/communication-aware_result_1.jpg)
+
+---
 
 ## **成果**
 
@@ -68,3 +72,9 @@
 **Z-Z Yang**, C Wang, Y-C Zhao, et al.
 
 **Nature Electronics** (Major Revision)
+
+## **代码仓库**
+
+[**https://github.com/scramblingsnail/Communication-aware-training**](https://github.com/scramblingsnail/Communication-aware-training)
+
+---

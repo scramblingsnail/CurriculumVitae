@@ -29,7 +29,7 @@
 
 通过模拟存内计算阵列与非线性电路（实现非线性激活函数的左右）构成可级联的硬件全连接神经层。
 
-![](./images/analog_fnn.jpg)
+![analog_fnn](./images/analog_fnn.jpg)
 
 ### **全模拟域全连接神经网络的应用--机器人的感知、规划与运动**
 
@@ -50,6 +50,10 @@ Self-adaptive embodied neuromorphic intelligence using in-memory computing hardw
 **Z-Z Yang†**, H Zhao†, Y-C Zhao, et al.
 
 **Science Robotics** (Under review)
+
+## **代码仓库**
+
+[**https://github.com/scramblingsnail/AnalogFNNForRobot**](https://github.com/scramblingsnail/AnalogFNNForRobot)
 
 ---
 
