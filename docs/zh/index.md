@@ -191,7 +191,7 @@
   <p>我博士期间的研究方向是基于模拟存内计算硬件（ReRAM, SRAM）的深度学习推理系统。已在<strong>Nature Electronics</strong>、<strong>Nature Nanotechnology</strong>、<strong>Science Advances</strong>等国际知名期刊发表论文7篇，
   另有两篇<strong>Nature Electronics</strong>、<strong>Science Robotics</strong>第一作者论文正在接受同行评审。</p>
   <h2><strong>论文列表</strong> <img src="assets/arrow_icon.png" alt="箭头图标" style="width:25px; vertical-align:middle;"></h2>
-  <a href="http://127.0.0.1:8000/papers" class="paper-link">
+  <a href="https://scramblingsnail.github.io/CurriculumVitae/papers" class="paper-link">
     <img src="assets/paper_icon.png" alt="论文图标" style="width:80px; vertical-align:middle;">
   </a>
 </div>
@@ -205,28 +205,28 @@
   <div class="project-carousel">
 
     <div class="project-slide">
-      <a href="http://127.0.0.1:8000/programs/rl_reram">
+      <a href="https://scramblingsnail.github.io/CurriculumVitae/programs/rl_reram">
         <img src="assets/rl_reram.png" alt="项目1">
         <div class="project-title">ReRAM阵列测试系统 & 基于强化学习的ReRAM阻态编程方案</div>
       </a>
     </div>
 
     <div class="project-slide">
-      <a href="http://127.0.0.1:8000/programs/communication_aware_nn">
+      <a href="https://scramblingsnail.github.io/CurriculumVitae/communication_aware_nn">
         <img src="assets/communication-aware.png" alt="项目2">
         <div class="project-title">基于SRAM模拟存内计算硬件的边云无线协同推理系统</div>
       </a>
     </div>
 
     <div class="project-slide">
-      <a href="http://127.0.0.1:8000/programs/fully_analog_nn">
+      <a href="https://scramblingsnail.github.io/CurriculumVitae/programs/fully_analog_nn">
         <img src="assets/analog_nn.png" alt="项目3">
         <div class="project-title">基于模拟存内计算硬件的全模拟域人工神经网络（FNN,RNN,CNN）</div>
       </a>
     </div>
 
     <div class="project-slide">
-      <a href="http://127.0.0.1:8000/programs/labridge">
+      <a href="https://scramblingsnail.github.io/CurriculumVitae/programs/labridge">
         <img src="assets/labridge.png" alt="项目4">
         <div class="project-title">Labridge--搭建实验室沟通的桥梁</div>
       </a>
